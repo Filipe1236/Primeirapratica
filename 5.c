@@ -5,6 +5,6 @@ int main(void){
     float horadec;
     printf("Hora minuto segundo=");
     scanf("%d %d %d",&hora,&minutos,&segundos);
-    printf("São %.3f horas!\n",hora+minutos/60.0+segundos/60.0);
+    printf("São %.3f horas!\n",hora+minutos/60.0+segundos/3600.0);
     return 0;
 }
